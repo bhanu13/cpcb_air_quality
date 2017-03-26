@@ -1,0 +1,104 @@
+stateId,state,cityId,city,stationId,station
+25,Tamil Nadu,546,Chennai,9,IIT
+25,Tamil Nadu,546,Chennai,8,Alandur 
+25,Tamil Nadu,546,Chennai,Select Station,Select Station
+25,Tamil Nadu,546,Chennai,33,Manali
+22,Punjab,194,Ludhiana,103,Punjab Agricultural University
+22,Punjab,194,Ludhiana,Select Station,Select Station
+22,Punjab,188,Amritsar,102,Golden Temple
+22,Punjab,188,Amritsar,Select Station,Select Station
+22,Punjab,553,Mandi Gobindgarh,Select Station,Select Station
+22,Punjab,553,Mandi Gobindgarh,106,RIMT University
+23,Rajasthan,212,Jodhpur,Select Station,Select Station
+23,Rajasthan,212,Jodhpur,85,Jodhpur
+23,Rajasthan,223,Jaipur,83,Jaipur
+23,Rajasthan,223,Jaipur,Select Station,Select Station
+28,Uttar Pradesh,278,Kanpur,Select Station,Select Station
+28,Uttar Pradesh,278,Kanpur,38,Nehru Nagar
+28,Uttar Pradesh,253,Agra,39,Sanjay Palace
+28,Uttar Pradesh,253,Agra,Select Station,Select Station
+28,Uttar Pradesh,253,Agra,21,Tajmahal
+28,Uttar Pradesh,270,Varanasi,Select Station,Select Station
+28,Uttar Pradesh,270,Varanasi,40,Ardhali Bazar
+28,Uttar Pradesh,256,Lucknow,11,Lalbagh
+28,Uttar Pradesh,256,Lucknow,10,Talkatora
+28,Uttar Pradesh,256,Lucknow,Select Station,Select Station
+28,Uttar Pradesh,256,Lucknow,12,Central School
+29,West Bengal,300,Kolkata,Select Station,Select Station
+29,West Bengal,300,Kolkata,92,Rabindra Bharati University
+29,West Bengal,300,Kolkata,31,Victoria
+29,West Bengal,300,Kolkata,35,Kolkata
+29,West Bengal,548,Howrah,Select Station,Select Station
+29,West Bengal,548,Howrah,88,Howrah
+29,West Bengal,549,Haldia,82,HALDIA
+29,West Bengal,549,Haldia,Select Station,Select Station
+29,West Bengal,552,Durgapur,98,Sidhu Kanhu Indoor Stadium
+29,West Bengal,552,Durgapur,Select Station,Select Station
+1,Andhra Pradesh,9,Visakhapatnam,Select Station,Select Station
+1,Andhra Pradesh,9,Visakhapatnam,95,GVMC Ram Nagar
+1,Andhra Pradesh,21,Tirupati,Select Station,Select Station
+1,Andhra Pradesh,21,Tirupati,96,Tirumala
+4,Bihar,54,Muzaffarpur,Select Station,Select Station
+4,Bihar,54,Muzaffarpur,81,Muzaffarpur Collectorate
+4,Bihar,75,Gaya,90,Gaya Collectorate
+4,Bihar,75,Gaya,Select Station,Select Station
+4,Bihar,70,Patna,Select Station,Select Station
+4,Bihar,70,Patna,65,IGSC Planetarium Complex
+6,Delhi,85,Delhi,58,Noida Sector 62
+6,Delhi,85,Delhi,54,Anand Vihar
+6,Delhi,85,Delhi,46,Mandir Marg
+6,Delhi,85,Delhi,47,Punjabi Bagh
+6,Delhi,85,Delhi,45,R K Puram
+6,Delhi,85,Delhi,51,Gole Market
+6,Delhi,85,Delhi,3,DTU
+6,Delhi,85,Delhi,53,Civil Lines
+6,Delhi,85,Delhi,52,IGI Airport
+6,Delhi,85,Delhi,1,MOBILE VAN
+6,Delhi,85,Delhi,55,East Arjun Nagar-Delhi CPCB
+6,Delhi,85,Delhi,Select Station,Select Station
+6,Delhi,85,Delhi,2,ITO
+6,Delhi,85,Delhi,5,Shadipur
+6,Delhi,85,Delhi,4,Sirifort
+6,Delhi,85,Delhi,7,IHBAS
+6,Delhi,85,Delhi,6,Dwarka
+9,Haryana,364,Gurgaon,Select Station,Select Station
+9,Haryana,364,Gurgaon,86,HSPCBGurgaon
+9,Haryana,365,Faridabad,Select Station,Select Station
+9,Haryana,365,Faridabad,34,Sector16A Faridabad
+9,Haryana,348,Panchkula,Select Station,Select Station
+9,Haryana,348,Panchkula,84,Panchkula
+9,Haryana,360,Rohtak,91,Rohtak
+9,Haryana,360,Rohtak,Select Station,Select Station
+8,Gujarat,337,Ahmedabad,Select Station,Select Station
+8,Gujarat,337,Ahmedabad,41,Maninagar
+13,Karnataka,136,Bengaluru,24,SGHALLI
+13,Karnataka,136,Bengaluru,25,CRS
+13,Karnataka,136,Bengaluru,15,Peenya
+13,Karnataka,136,Bengaluru,14,BTM
+13,Karnataka,136,Bengaluru,16,BWSSB
+13,Karnataka,136,Bengaluru,Select Station,Select Station
+16,Maharashtra,308,Aurangabad,Select Station,Select Station
+16,Maharashtra,308,Aurangabad,97,More Chowk-Waluj
+16,Maharashtra,309,Thane,99,Pimpleshwar Mandir
+16,Maharashtra,309,Thane,Select Station,Select Station
+16,Maharashtra,312,Pune,Select Station,Select Station
+16,Maharashtra,312,Pune,30,Karve Road Pune
+16,Maharashtra,310,Mumbai,Select Station,Select Station
+16,Maharashtra,310,Mumbai,27,MPCB Bandra
+16,Maharashtra,310,Mumbai,28,NMMC Airoli
+16,Maharashtra,310,Mumbai,29,NMMC Vashi
+16,Maharashtra,314,Solapur,Select Station,Select Station
+16,Maharashtra,314,Solapur,87,Solapur
+16,Maharashtra,307,Nashik,Select Station,Select Station
+16,Maharashtra,307,Nashik,94,KTHM College
+16,Maharashtra,327,Nagpur,Select Station,Select Station
+16,Maharashtra,327,Nagpur,93,Civil Lines
+16,Maharashtra,329,Chandrapur,Select Station,Select Station
+16,Maharashtra,329,Chandrapur,100,MIDC Khutala
+16,Maharashtra,329,Chandrapur,79,Chandrapur
+30,Telangana,7,Hyderabad,36,Sanathnagar
+30,Telangana,7,Hyderabad,Select Station,Select Station
+30,Telangana,7,Hyderabad,80,ZooPark
+30,Telangana,7,Hyderabad,101,IDA Pashamylaram
+30,Telangana,7,Hyderabad,104,Bollaram Industrial Area
+30,Telangana,7,Hyderabad,105,ICRISAT Patancheru
