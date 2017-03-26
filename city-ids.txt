@@ -1,0 +1,67 @@
+stateId,state,cityId,city
+24,Sikkim,Select City,Select City
+25,Tamil Nadu,546,Chennai
+25,Tamil Nadu,Select City,Select City
+26,Tripura,Select City,Select City
+27,Uttaranchal,Select City,Select City
+20,Nagaland,Select City,Select City
+21,Orissa,Select City,Select City
+22,Punjab,194,Ludhiana
+22,Punjab,188,Amritsar
+22,Punjab,553,Mandi Gobindgarh
+22,Punjab,Select City,Select City
+23,Rajasthan,212,Jodhpur
+23,Rajasthan,223,Jaipur
+23,Rajasthan,Select City,Select City
+28,Uttar Pradesh,278,Kanpur
+28,Uttar Pradesh,253,Agra
+28,Uttar Pradesh,270,Varanasi
+28,Uttar Pradesh,256,Lucknow
+28,Uttar Pradesh,Select City,Select City
+29,West Bengal,300,Kolkata
+29,West Bengal,548,Howrah
+29,West Bengal,549,Haldia
+29,West Bengal,Select City,Select City
+29,West Bengal,552,Durgapur
+1,Andhra Pradesh,9,Visakhapatnam
+1,Andhra Pradesh,21,Tirupati
+1,Andhra Pradesh,Select City,Select City
+3,Assam,Select City,Select City
+2,Arunachal Pradesh,Select City,Select City
+5,Chhattisgarh,Select City,Select City
+4,Bihar,54,Muzaffarpur
+4,Bihar,75,Gaya
+4,Bihar,Select City,Select City
+4,Bihar,70,Patna
+7,Goa,Select City,Select City
+6,Delhi,Select City,Select City
+6,Delhi,85,Delhi
+9,Haryana,364,Gurgaon
+9,Haryana,365,Faridabad
+9,Haryana,348,Panchkula
+9,Haryana,360,Rohtak
+9,Haryana,Select City,Select City
+8,Gujarat,337,Ahmedabad
+8,Gujarat,Select City,Select City
+12,Jharkhand,Select City,Select City
+11,Jammu and Kashmir,Select City,Select City
+10,Himachal Pradesh,Select City,Select City
+13,Karnataka,136,Bengaluru
+13,Karnataka,Select City,Select City
+Select State,Select State,Select City,Select City
+15,Madya Pradesh,Select City,Select City
+14,Kerala,Select City,Select City
+17,Manipur,Select City,Select City
+16,Maharashtra,308,Aurangabad
+16,Maharashtra,309,Thane
+16,Maharashtra,Select City,Select City
+16,Maharashtra,312,Pune
+16,Maharashtra,310,Mumbai
+16,Maharashtra,314,Solapur
+16,Maharashtra,307,Nashik
+16,Maharashtra,327,Nagpur
+16,Maharashtra,329,Chandrapur
+19,Mizoram,Select City,Select City
+18,Meghalaya,Select City,Select City
+30,Telangana,7,Hyderabad
+30,Telangana,Select City,Select City

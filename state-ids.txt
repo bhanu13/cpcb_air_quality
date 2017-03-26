@@ -1,0 +1,32 @@
+stateId,state
+24,Sikkim
+25,Tamil Nadu
+26,Tripura
+27,Uttaranchal
+20,Nagaland
+21,Orissa
+22,Punjab
+23,Rajasthan
+28,Uttar Pradesh
+29,West Bengal
+1,Andhra Pradesh
+3,Assam
+2,Arunachal Pradesh
+5,Chhattisgarh
+4,Bihar
+7,Goa
+6,Delhi
+9,Haryana
+8,Gujarat
+12,Jharkhand
+11,Jammu and Kashmir
+10,Himachal Pradesh
+13,Karnataka
+Select State,Select State
+15,Madya Pradesh
+14,Kerala
+17,Manipur
+16,Maharashtra
+19,Mizoram
+18,Meghalaya
+30,Telangana
