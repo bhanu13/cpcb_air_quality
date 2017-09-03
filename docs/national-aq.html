@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Air Quality India Plot 2016</title>
+</head>
+<body>
+
+<h2 align="center">PM2.5 annual averages in Indian cities for 2016</h2>
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.10.0/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{
+  "state": {
+    "0f13091c7bee40fa8f442fa6bf11f6c1": {
+      "model_module": "@jupyter-widgets/base", 
+      "state": {
+        "align_self": "stretch", 
+        "height": "600px"
+      }, 
+      "model_name": "LayoutModel", 
+      "model_module_version": "1.0.0"
+    }, 
+    "df48718c07db4a2c926d1f760f9cad71": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "data_bounds": [
+          [
+            11.96765502430447, 
+            70.58977756418439
+          ], 
+          [
+            32.69075446800321, 
+            85.00961168347057
+          ]
+        ], 
+        "markers": [
+          "IPY_MODEL_42a96035aaa848a3ac467e9dece3c31b", 
+          "IPY_MODEL_2fcc8a3ff36a4de7bce04d23f03a689b", 
+          "IPY_MODEL_a8525e782e8349388c5fdef16ae12049", 
+          "IPY_MODEL_e74351d517174a9a9719a254c7b0a6a5", 
+          "IPY_MODEL_ee1439e87a93433081b106f11157d412", 
+          "IPY_MODEL_bf6e9721d30b46a48d0f0d4663f193e7", 
+          "IPY_MODEL_fabab921c86d4510a13516cf5f133fe8", 
+          "IPY_MODEL_77b87567a59e443ca5a7a5d747b280f4", 
+          "IPY_MODEL_a6d13d4c293e4028b4a7c83170642c96", 
+          "IPY_MODEL_c632595257c040d186653677756fa5ca", 
+          "IPY_MODEL_51ee3d31522d4e1ebc98e6efbe7b7ac5", 
+          "IPY_MODEL_7b97fce09b914dd1a2548df2aac1b75c", 
+          "IPY_MODEL_a19f6d972520428ca84b9bd6780c5296", 
+          "IPY_MODEL_3cf4e870f69341f8a8c1f13922d2dc1f", 
+          "IPY_MODEL_0254e2a446cb4b7d8df40e4be4d3989a", 
+          "IPY_MODEL_5c70dde1f7aa4d6196d0720399581cbf", 
+          "IPY_MODEL_6e840d5274c3477084fa053385b6b0bc", 
+          "IPY_MODEL_55377ea2a956479f9b5007dfc6f1c30b", 
+          "IPY_MODEL_614131700a984bd995030887cf7bce57", 
+          "IPY_MODEL_beaa083582a44d1eb84de98b37c38919", 
+          "IPY_MODEL_e4c307d060804b5e9c7cf97f8e9c1623", 
+          "IPY_MODEL_edb212fb880f4f849264ff2cc1eb2177", 
+          "IPY_MODEL_7c3408b1f4584300aebd1e51a9bd8846", 
+          "IPY_MODEL_240bbccf4a7b414b913fc229cfd0813d", 
+          "IPY_MODEL_7ad58d1efd6e4ec89daba0af73c5d18b", 
+          "IPY_MODEL_4fca03b235c148bea03eeab7745dec58"
+        ]
+      }, 
+      "model_name": "MarkerLayerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "7b97fce09b914dd1a2548df2aac1b75c": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Bengaluru, Karnataka</p>\n<p><b>PM2.5:</b> 74.81</p>\n</div>\n", 
+        "location": [
+          12.9715987, 
+          77.5945627
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "614131700a984bd995030887cf7bce57": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Patna, Bihar</p>\n<p><b>PM2.5:</b> 148.85</p>\n</div>\n", 
+        "location": [
+          25.5940947, 
+          85.1375645
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "7c3408b1f4584300aebd1e51a9bd8846": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Kanpur, Uttar Pradesh</p>\n<p><b>PM2.5:</b> 166.36</p>\n</div>\n", 
+        "location": [
+          26.449923, 
+          80.3318736
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "50ca638080c9487083aa45fd4d746a49": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "_toolbar": "IPY_MODEL_9143d085ccbc4b6f8a7eda15e9934532", 
+        "layout": "IPY_MODEL_ef53c19f48a04849afc55e2a81c0d348", 
+        "_map": "IPY_MODEL_4b9ab36ce2124d80a0ebf27fff5082fe", 
+        "_dom_classes": [], 
+        "_errors_box": "IPY_MODEL_d9b89bc372d44c768dc85b46a7a72639"
+      }, 
+      "model_name": "FigureModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "a8525e782e8349388c5fdef16ae12049": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Mumbai, Maharashtra</p>\n<p><b>PM2.5:</b> 40.38</p>\n</div>\n", 
+        "location": [
+          19.0759837, 
+          72.8776559
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "77b87567a59e443ca5a7a5d747b280f4": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Pune, Maharashtra</p>\n<p><b>PM2.5:</b> 64.14</p>\n</div>\n", 
+        "location": [
+          18.5204303, 
+          73.8567437
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "beaa083582a44d1eb84de98b37c38919": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Varanasi, Uttar Pradesh</p>\n<p><b>PM2.5:</b> 151.13</p>\n</div>\n", 
+        "location": [
+          25.3176452, 
+          82.9739144
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "bb68f3d62ab0494195471c62b0aee1c2": {
+      "model_module": "@jupyter-widgets/base", 
+      "state": {}, 
+      "model_name": "LayoutModel", 
+      "model_module_version": "1.0.0"
+    }, 
+    "cbda812f39b143df8e38e5cd20e2537b": {
+      "model_module": "@jupyter-widgets/base", 
+      "state": {}, 
+      "model_name": "LayoutModel", 
+      "model_module_version": "1.0.0"
+    }, 
+    "fabab921c86d4510a13516cf5f133fe8": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Chandrapur, Maharashtra</p>\n<p><b>PM2.5:</b> 63.90</p>\n</div>\n", 
+        "location": [
+          19.9704597, 
+          79.30148450000002
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "c632595257c040d186653677756fa5ca": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Nashik, Maharashtra</p>\n<p><b>PM2.5:</b> 68.63</p>\n</div>\n", 
+        "location": [
+          19.9974533, 
+          73.78980229999999
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "55377ea2a956479f9b5007dfc6f1c30b": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Gurgaon, Haryana</p>\n<p><b>PM2.5:</b> 124.34</p>\n</div>\n", 
+        "location": [
+          28.4594965, 
+          77.0266383
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "4fca03b235c148bea03eeab7745dec58": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Gaya, Bihar</p>\n<p><b>PM2.5:</b> 196.22</p>\n</div>\n", 
+        "location": [
+          24.7954523, 
+          84.999431
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "2fcc8a3ff36a4de7bce04d23f03a689b": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Solapur, Maharashtra</p>\n<p><b>PM2.5:</b> 38.83</p>\n</div>\n", 
+        "location": [
+          17.6599188, 
+          75.9063906
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "e4c307d060804b5e9c7cf97f8e9c1623": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Faridabad, Haryana</p>\n<p><b>PM2.5:</b> 161.04</p>\n</div>\n", 
+        "location": [
+          28.4089123, 
+          77.3177894
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "f113c8a446c94e6d9d5b21b815139e5e": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "gradient": null, 
+        "max_intensity": 200.0, 
+        "data_bounds": [
+          [
+            11.96765502430447, 
+            70.58977756418439
+          ], 
+          [
+            32.69075446800321, 
+            85.00961168347057
+          ]
+        ], 
+        "dissipating": false, 
+        "data": [
+          [
+            13.6287557, 
+            79.4191795, 
+            32.369999999999997
+          ], 
+          [
+            17.6599188, 
+            75.9063906, 
+            38.829999999999998
+          ], 
+          [
+            19.0759837, 
+            72.8776559, 
+            40.375
+          ], 
+          [
+            17.6868159, 
+            83.2184815, 
+            45.880000000000003
+          ], 
+          [
+            30.6942091, 
+            76.860565, 
+            53.979999999999997
+          ], 
+          [
+            17.385044, 
+            78.486671, 
+            61.663333333333327
+          ], 
+          [
+            19.9704597, 
+            79.30148450000002, 
+            63.895000000000003
+          ], 
+          [
+            18.5204303, 
+            73.8567437, 
+            64.140000000000001
+          ], 
+          [
+            19.2183307, 
+            72.9780897, 
+            64.260000000000005
+          ], 
+          [
+            19.9974533, 
+            73.78980229999999, 
+            68.629999999999995
+          ], 
+          [
+            13.0826802, 
+            80.2707184, 
+            70.123333333333335
+          ], 
+          [
+            12.9715987, 
+            77.5945627, 
+            74.806666666666658
+          ], 
+          [
+            21.1458004, 
+            79.0881546, 
+            84.390000000000001
+          ], 
+          [
+            19.8761653, 
+            75.3433139, 
+            87.030000000000001
+          ], 
+          [
+            26.2389469, 
+            73.02430939999999, 
+            95.799999999999997
+          ], 
+          [
+            26.9124336, 
+            75.7872709, 
+            103.93000000000001
+          ], 
+          [
+            28.8955152, 
+            76.606611, 
+            109.92
+          ], 
+          [
+            28.4594965, 
+            77.0266383, 
+            124.34
+          ], 
+          [
+            25.5940947, 
+            85.1375645, 
+            148.84999999999999
+          ], 
+          [
+            25.3176452, 
+            82.9739144, 
+            151.13
+          ], 
+          [
+            28.4089123, 
+            77.3177894, 
+            161.03999999999999
+          ], 
+          [
+            26.8466937, 
+            80.94616599999999, 
+            164.43333333333337
+          ], 
+          [
+            26.449923, 
+            80.3318736, 
+            166.36000000000001
+          ], 
+          [
+            28.7040592, 
+            77.10249019999999, 
+            182.68299999999999
+          ], 
+          [
+            23.022505, 
+            72.5713621, 
+            183.34999999999999
+          ], 
+          [
+            24.7954523, 
+            84.999431, 
+            196.22
+          ]
+        ], 
+        "point_radius": 2.0
+      }, 
+      "model_name": "WeightedHeatmapLayerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "9143d085ccbc4b6f8a7eda15e9934532": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "layout": "IPY_MODEL_bb68f3d62ab0494195471c62b0aee1c2", 
+        "_dom_classes": []
+      }, 
+      "model_name": "ToolbarModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "e74351d517174a9a9719a254c7b0a6a5": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Visakhapatnam, Andhra Pradesh</p>\n<p><b>PM2.5:</b> 45.88</p>\n</div>\n", 
+        "location": [
+          17.6868159, 
+          83.2184815
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "ef53c19f48a04849afc55e2a81c0d348": {
+      "model_module": "@jupyter-widgets/base", 
+      "state": {}, 
+      "model_name": "LayoutModel", 
+      "model_module_version": "1.0.0"
+    }, 
+    "bf6e9721d30b46a48d0f0d4663f193e7": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Hyderabad, Telangana</p>\n<p><b>PM2.5:</b> 61.66</p>\n</div>\n", 
+        "location": [
+          17.385044, 
+          78.486671
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "3cf4e870f69341f8a8c1f13922d2dc1f": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Aurangabad, Maharashtra</p>\n<p><b>PM2.5:</b> 87.03</p>\n</div>\n", 
+        "location": [
+          19.8761653, 
+          75.3433139
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "51ee3d31522d4e1ebc98e6efbe7b7ac5": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Chennai, Tamil Nadu</p>\n<p><b>PM2.5:</b> 70.12</p>\n</div>\n", 
+        "location": [
+          13.0826802, 
+          80.2707184
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "0254e2a446cb4b7d8df40e4be4d3989a": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Jodhpur, Rajasthan</p>\n<p><b>PM2.5:</b> 95.80</p>\n</div>\n", 
+        "location": [
+          26.2389469, 
+          73.02430939999999
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "ee1439e87a93433081b106f11157d412": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Panchkula, Haryana</p>\n<p><b>PM2.5:</b> 53.98</p>\n</div>\n", 
+        "location": [
+          30.6942091, 
+          76.860565
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "d9b89bc372d44c768dc85b46a7a72639": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "layout": "IPY_MODEL_cbda812f39b143df8e38e5cd20e2537b", 
+        "errors": [], 
+        "_dom_classes": []
+      }, 
+      "model_name": "ErrorsBoxModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "7ad58d1efd6e4ec89daba0af73c5d18b": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Ahmedabad, Gujarat</p>\n<p><b>PM2.5:</b> 183.35</p>\n</div>\n", 
+        "location": [
+          23.022505, 
+          72.5713621
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "6e840d5274c3477084fa053385b6b0bc": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Rohtak, Haryana</p>\n<p><b>PM2.5:</b> 109.92</p>\n</div>\n", 
+        "location": [
+          28.8955152, 
+          76.606611
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "a6d13d4c293e4028b4a7c83170642c96": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Thane, Maharashtra</p>\n<p><b>PM2.5:</b> 64.26</p>\n</div>\n", 
+        "location": [
+          19.2183307, 
+          72.9780897
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "5c70dde1f7aa4d6196d0720399581cbf": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Jaipur, Rajasthan</p>\n<p><b>PM2.5:</b> 103.93</p>\n</div>\n", 
+        "location": [
+          26.9124336, 
+          75.7872709
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "240bbccf4a7b414b913fc229cfd0813d": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Delhi, Delhi</p>\n<p><b>PM2.5:</b> 182.68</p>\n</div>\n", 
+        "location": [
+          28.7040592, 
+          77.10249019999999
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "a19f6d972520428ca84b9bd6780c5296": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Nagpur, Maharashtra</p>\n<p><b>PM2.5:</b> 84.39</p>\n</div>\n", 
+        "location": [
+          21.1458004, 
+          79.0881546
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "edb212fb880f4f849264ff2cc1eb2177": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Lucknow, Uttar Pradesh</p>\n<p><b>PM2.5:</b> 164.43</p>\n</div>\n", 
+        "location": [
+          26.8466937, 
+          80.94616599999999
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "4b9ab36ce2124d80a0ebf27fff5082fe": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "layers": [
+          "IPY_MODEL_f113c8a446c94e6d9d5b21b815139e5e", 
+          "IPY_MODEL_df48718c07db4a2c926d1f760f9cad71"
+        ], 
+        "layout": "IPY_MODEL_0f13091c7bee40fa8f442fa6bf11f6c1", 
+        "initial_viewport": {
+          "zoom_level": 5, 
+          "type": "ZOOM_CENTER", 
+          "center": [
+            20.593684, 
+            78.96288
+          ]
+        }, 
+        "data_bounds": [
+          [
+            11.96765502430447, 
+            70.58977756418437
+          ], 
+          [
+            32.69075446800321, 
+            85.00961168347057
+          ]
+        ], 
+        "_dom_classes": [], 
+        "configuration": {
+          "api_key": "AIzaSyC1KcUlMt9C1S0pbLZ9GUmVeFP_-WYBAWM"
+        }
+      }, 
+      "model_name": "PlainmapModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "42a96035aaa848a3ac467e9dece3c31b": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>City:</b> Tirupati, Andhra Pradesh</p>\n<p><b>PM2.5:</b> 32.37</p>\n</div>\n", 
+        "location": [
+          13.6287557, 
+          79.4191795
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }
+  }, 
+  "version_minor": 0, 
+  "version_major": 2
+}
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "50ca638080c9487083aa45fd4d746a49", "version_minor": 0, "version_major": 2}
+</script>
+
+</body>
+</html>
