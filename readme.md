@@ -14,5 +14,8 @@
   * contains the station, city ids used in the form filling process
 * \docs
   * contains the html pages with interactive visualizations
-
+  * visible here - 
+    * https://bhanu13.github.io/cpcb_air_quality/delhi-aq-pm25.html
+    * https://bhanu13.github.io/cpcb_air_quality/national-aq.html
+    * https://bhanu13.github.io/cpcb_air_quality/national-aq-interp.html
 
