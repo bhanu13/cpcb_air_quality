@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Air Quality Delhi Plot 2016</title>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.10.0/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+<h2 align="center">PM2.5 annual averages in Delhi for 2016</h2>
+<!-- Load require.js. Delete this if your page already loads require.js -->
+
+<script type="application/vnd.jupyter.widget-state+json">
+{
+  "state": {
+    "b875dd0c58354a6faa679dd7269e01fa": {
+      "model_module": "@jupyter-widgets/base", 
+      "state": {}, 
+      "model_name": "LayoutModel", 
+      "model_module_version": "1.0.0"
+    }, 
+    "95a551e750a74612991f9bffe321486e": {
+      "model_module": "@jupyter-widgets/base", 
+      "state": {}, 
+      "model_name": "LayoutModel", 
+      "model_module_version": "1.0.0"
+    }, 
+    "d29721aec21c46e780b3efcc93bd6740": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "layers": [
+          "IPY_MODEL_7a989209530b427ca9a6c8cb0031876b", 
+          "IPY_MODEL_8fa39a07ec2c4862b5ae951dc79b36ab"
+        ], 
+        "layout": "IPY_MODEL_33ab9d310dfc4c07b8aa0fde9a2ad3cb", 
+        "initial_viewport": {
+          "zoom_level": 11, 
+          "type": "ZOOM_CENTER", 
+          "center": [
+            28.6139391, 
+            77.2090212
+          ]
+        }, 
+        "data_bounds": [
+          [
+            28.52875213312291, 
+            77.03148281402775
+          ], 
+          [
+            28.750183646877094, 
+            77.36687532212576
+          ]
+        ], 
+        "_dom_classes": [], 
+        "configuration": {
+          "api_key": "AIzaSyC1KcUlMt9C1S0pbLZ9GUmVeFP_-WYBAWM"
+        }
+      }, 
+      "model_name": "PlainmapModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "e1792105fa9d405895c97398c546112f": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>Station:</b> Anand Vihar</p>\n<p><b>PM2.5:</b> 176.39</p>\n</div>\n", 
+        "location": [
+          28.650218, 
+          77.30270589999999
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "7a989209530b427ca9a6c8cb0031876b": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "gradient": null, 
+        "data_bounds": [
+          [
+            28.52875213312291, 
+            77.03148281402775
+          ], 
+          [
+            28.750183646877094, 
+            77.36687532212576
+          ]
+        ], 
+        "data": [
+          [
+            28.6515584, 
+            77.15819359999999, 
+            "144.68"
+          ], 
+          [
+            28.7500749, 
+            77.11766519999999, 
+            "326.36"
+          ], 
+          [
+            28.66197529999999, 
+            77.1241557, 
+            "139.61"
+          ], 
+          [
+            28.5511631, 
+            77.2277579, 
+            "278.77"
+          ], 
+          [
+            28.6809824, 
+            77.3051949, 
+            "145.87"
+          ], 
+          [
+            28.5660075, 
+            77.1767435, 
+            "135.92"
+          ], 
+          [
+            28.6308294, 
+            77.2505733, 
+            "216.32"
+          ], 
+          [
+            28.6597298, 
+            77.2827525, 
+            "119.59"
+          ], 
+          [
+            28.5921401, 
+            77.0460481, 
+            "143.32"
+          ], 
+          [
+            28.650218, 
+            77.30270589999999, 
+            "176.39"
+          ]
+        ], 
+        "max_intensity": 200.0, 
+        "point_radius": 35.0
+      }, 
+      "model_name": "WeightedHeatmapLayerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "3d4ba6e189e04a6db6efc64a2bbc3ec6": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>Station:</b> DTU</p>\n<p><b>PM2.5:</b> 326.36</p>\n</div>\n", 
+        "location": [
+          28.7500749, 
+          77.11766519999999
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "806d5cf6350345baab49e56c66462f06": {
+      "model_module": "@jupyter-widgets/base", 
+      "state": {}, 
+      "model_name": "LayoutModel", 
+      "model_module_version": "1.0.0"
+    }, 
+    "1eca201798444eef814b80de81a076ae": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "layout": "IPY_MODEL_b875dd0c58354a6faa679dd7269e01fa", 
+        "_dom_classes": []
+      }, 
+      "model_name": "ToolbarModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "c3d18f1572ee4d418ab26719f9f4e26c": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>Station:</b> IHBAS</p>\n<p><b>PM2.5:</b> 145.87</p>\n</div>\n", 
+        "location": [
+          28.6809824, 
+          77.3051949
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "50fe15a9d80d4fcfa5f26710c9d7a1ba": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "layout": "IPY_MODEL_95a551e750a74612991f9bffe321486e", 
+        "errors": [], 
+        "_dom_classes": []
+      }, 
+      "model_name": "ErrorsBoxModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "5d2debaa5b10472f8bd10c9ccf3e02eb": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>Station:</b> ITO</p>\n<p><b>PM2.5:</b> 216.32</p>\n</div>\n", 
+        "location": [
+          28.6308294, 
+          77.2505733
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "e05349f1320e4a3da24bfd47465fa6f5": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>Station:</b> R K Puram</p>\n<p><b>PM2.5:</b> 135.92</p>\n</div>\n", 
+        "location": [
+          28.5660075, 
+          77.1767435
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "f0ed517370d049ec8f20c9ed7cd0681f": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>Station:</b> Dwarka</p>\n<p><b>PM2.5:</b> 143.32</p>\n</div>\n", 
+        "location": [
+          28.5921401, 
+          77.0460481
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "488355ea86b74ffd8f85ef910cd1c128": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>Station:</b> Sirifort</p>\n<p><b>PM2.5:</b> 278.77</p>\n</div>\n", 
+        "location": [
+          28.5511631, 
+          77.2277579
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "d0768ee438d44edd947a552287b06b23": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>Station:</b> Mandir Marg</p>\n<p><b>PM2.5:</b> 119.59</p>\n</div>\n", 
+        "location": [
+          28.6597298, 
+          77.2827525
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "21e0324387ed4392bce8c8ef1965cef5": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>Station:</b> Punjabi Bagh</p>\n<p><b>PM2.5:</b> 139.61</p>\n</div>\n", 
+        "location": [
+          28.66197529999999, 
+          77.1241557
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "33ab9d310dfc4c07b8aa0fde9a2ad3cb": {
+      "model_module": "@jupyter-widgets/base", 
+      "state": {
+        "align_self": "stretch", 
+        "height": "600px"
+      }, 
+      "model_name": "LayoutModel", 
+      "model_module_version": "1.0.0"
+    }, 
+    "526dc007c05a432d9cbbde4896872dc5": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "_toolbar": "IPY_MODEL_1eca201798444eef814b80de81a076ae", 
+        "layout": "IPY_MODEL_806d5cf6350345baab49e56c66462f06", 
+        "_map": "IPY_MODEL_d29721aec21c46e780b3efcc93bd6740", 
+        "_dom_classes": [], 
+        "_errors_box": "IPY_MODEL_50fe15a9d80d4fcfa5f26710c9d7a1ba"
+      }, 
+      "model_name": "FigureModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "2d04477cb26842e589da9f29150da578": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "display_info_box": true, 
+        "info_box_content": "\n<div>\n<p><b>Station:</b> Shadipur</p>\n<p><b>PM2.5:</b> 144.68</p>\n</div>\n", 
+        "location": [
+          28.6515584, 
+          77.15819359999999
+        ]
+      }, 
+      "model_name": "MarkerModel", 
+      "model_module_version": "0.6.0"
+    }, 
+    "8fa39a07ec2c4862b5ae951dc79b36ab": {
+      "model_module": "jupyter-gmaps", 
+      "state": {
+        "data_bounds": [
+          [
+            28.52875213312291, 
+            77.03148281402775
+          ], 
+          [
+            28.750183646877094, 
+            77.36687532212576
+          ]
+        ], 
+        "markers": [
+          "IPY_MODEL_2d04477cb26842e589da9f29150da578", 
+          "IPY_MODEL_3d4ba6e189e04a6db6efc64a2bbc3ec6", 
+          "IPY_MODEL_21e0324387ed4392bce8c8ef1965cef5", 
+          "IPY_MODEL_488355ea86b74ffd8f85ef910cd1c128", 
+          "IPY_MODEL_c3d18f1572ee4d418ab26719f9f4e26c", 
+          "IPY_MODEL_e05349f1320e4a3da24bfd47465fa6f5", 
+          "IPY_MODEL_5d2debaa5b10472f8bd10c9ccf3e02eb", 
+          "IPY_MODEL_d0768ee438d44edd947a552287b06b23", 
+          "IPY_MODEL_f0ed517370d049ec8f20c9ed7cd0681f", 
+          "IPY_MODEL_e1792105fa9d405895c97398c546112f"
+        ]
+      }, 
+      "model_name": "MarkerLayerModel", 
+      "model_module_version": "0.6.0"
+    }
+  }, 
+  "version_minor": 0, 
+  "version_major": 2
+}
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "526dc007c05a432d9cbbde4896872dc5", "version_minor": 0, "version_major": 2}
+</script>
+
+</body>
+</html>
