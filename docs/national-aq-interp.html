@@ -2160,6 +2160,19 @@
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "3c5d685d177544daa69f691fc5b8aac6", "version_minor": 0, "version_major": 2}
 </script>
+<script type="text/javascript">
+  var existCondition = setInterval(function() {
+    try {
+      var element = document.getElementsByClassName("widget-subarea")[0].children[0].children[2];
+      if (element.style.height === "600px") {
+        element.style.height = window.screen.availHeight*0.7 + "px";
+        clearInterval(existCondition);
+      }
+    }
+    catch (e) {
+    }
+  }, 100); // check every 100ms
+</script>
 
 </body>
 </html>

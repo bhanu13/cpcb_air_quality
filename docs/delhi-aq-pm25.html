@@ -277,7 +277,7 @@
     "33ab9d310dfc4c07b8aa0fde9a2ad3cb": {
       "model_module": "@jupyter-widgets/base", 
       "state": {
-        "align_self": "stretch", 
+        "align_self": "stretch",
         "height": "600px"
       }, 
       "model_name": "LayoutModel", 
@@ -344,6 +344,19 @@
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "526dc007c05a432d9cbbde4896872dc5", "version_minor": 0, "version_major": 2}
+</script>
+<script type="text/javascript">
+  var existCondition = setInterval(function() {
+    try {
+      var element = document.getElementsByClassName("widget-subarea")[0].children[0].children[2];
+      if (element.style.height === "600px") {
+        element.style.height = window.screen.availHeight*0.7 + "px";
+        clearInterval(existCondition);
+      }
+    }
+    catch (e) {
+    }
+  }, 100); // check every 100ms
 </script>
 
 </body>
